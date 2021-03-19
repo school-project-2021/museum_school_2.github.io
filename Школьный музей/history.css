@@ -1,0 +1,166 @@
+/*Пожалуйста не ругайтесь за код, его делал школьник Киселёв Константин, на тот момент учащийся в 10 классе 2021 года*/
+
+body{
+    background:url(img/bach.jpg) repeat;
+
+
+}
+@font-face {
+    font-family: Pompadur;
+    src: url(шрифты/19268.ttf);
+}
+@font-face {
+    font-family: Candara;
+    src:url(шрифты/19689.ttf);
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr; /*регулирование колонн*/
+    grid-template-rows: 200px;/*регулирование рядов*/
+}
+.logo{
+    background-color: #071D49;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: end;
+    grid-column-gap: 20px;
+    justify-items: center;
+    text-transform: uppercase;
+    height: 100px;
+
+
+
+
+}
+
+
+.title{
+    background: url(img/mramor.jpg);
+    font-family: Pompadur;
+    font-size: 30px;
+    height: 100px;
+
+
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr; /*регулирование колонн*/
+    grid-template-rows: 2500px;/*регулирование рядов*/
+    margin-top: -100px;
+}
+nav{
+    background:url(img/bach.jpg) repeat;
+}
+
+.under_main{
+    color: aliceblue;
+    width: 170px;
+    height: 60px;
+    display: grid;
+    justify-items: center;
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    animation-name: Butto;
+
+}
+.under_main:hover{
+    background-color: aliceblue;
+    color: #071D49;
+    transition-duration: 0.7s;
+}
+
+
+ul{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+    text-transform: uppercase;
+    float: left;
+
+
+}
+li{
+    list-style: none;
+    font-size: 20px;
+
+
+
+}
+li:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+}
+.link_navigation{
+    text-decoration: none;
+}
+.standart{
+    width: 300px;
+    height: 110px;
+
+}
+.navigation{
+    margin-left: -25px;
+    max-width: 100px;
+}
+.strange{
+    align-content: left;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+.under-tour{
+    background-color: #071D49;
+    height: 200px;
+}
+.contact{
+    background-color: #071D49;
+    height: 200px;
+    color:aliceblue;
+    font-family: Candara;
+}
+.footer{
+    display: grid;
+}
+
+.number_{
+    height: 204px;
+    width: auto;
+    font-size: 21px;
+    font-family: Candara;
+    margin-bottom: 10px;
+    background-color: #1B2B49;
+    color:aliceblue;
+    border-radius: 20px;
+}
+.plakat{
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    float: left;
+    border: 2px solid #1B423D;
+    border-radius: 20px;
+}
+.plakat_back{
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    float: right;
+    margin-top: -25px;
+    border: 2px solid #1B423D;
+}
+.dop{
+    margin-left: 10px;
+}

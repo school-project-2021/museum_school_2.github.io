@@ -1,0 +1,15 @@
+body{
+    font-size: 30px;
+    color: firebrick;
+    background-color: azure;
+    margin: 0 auto;
+}
+.back{
+    height: 100px;
+    width: 250px;
+    background-color: coral;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 50px;
+}

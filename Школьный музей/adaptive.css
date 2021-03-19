@@ -1,0 +1,73 @@
+@media screen and (max-width: 720px){
+
+
+    body{
+        grid-template-columns: 0fr 1fr;
+
+    }
+
+    nav img{
+        display: none;
+
+    }
+    .navigation{
+        display: none;
+    }
+    .virtual-tour{
+        width: 100vw;
+    }
+
+    .footer{
+        width: 100vw;
+        grid-template-columns: 0fr 1fr;
+    }
+    .main{
+        grid-template-columns: 0fr 1fr;
+    }
+    .logo{
+        display: none;
+    }
+
+    .title p{
+        width: 100vw;
+    }
+    /*.menu_button{
+        z-index: 2;
+        background-color: #071D49;
+        margin-left: 85%;
+        margin-top:-60px;*/
+    }
+    .title p{
+        font-size: 27px;
+    }
+    .menu_a{
+        background: 3d3d3d;
+        color: black;
+        padding: 10px;
+        display: block;
+        font-size: 17px;
+        z-index: 3;
+        text-transform: lowercase;
+        width: 100%;
+    }
+    .menu li{
+        right: 100%;
+        opacity: 0;
+        position: absolute;
+
+    }
+    .menu_button:active li{
+        opacity: 1;
+
+    }
+    .menu_button{
+        position: relative;
+        border-radius: 5px;
+
+    }
+
+
+
+}
+
+
